@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Caesar+Dressing&display=swap" rel="stylesheet">
+    <title>Calcular tempo de vida</title>
+</head>
+
+<body>
+    <h1>Calcular idade</h1>
+
+    <section class="container">
+        <div class="input">
+            <label for="dia">Dia:</label>
+            <input type="number" id="dia" maxlength="2" required style="font-size: 30px; max-width: 100px">
+
+
+            <label for="mes">Mês:</label>
+            <input type="number" id="mes" maxlength="2" required style="font-size: 30px; max-width: 100px;">
+
+
+            <label for="ano">Ano:</label>
+            <input type="number" id="ano" maxlength="4" required style="font-size: 30px; max-width: 100px">
+        </div>
+
+        <div class="btn-enviar">
+            <button onclick="enviar()">Enviar</button>
+        </div>
+
+        <span>
+            <div>
+                <p id="anoR">- -</p>
+                <h2>Anos</h2>
+            </div>
+
+            <div>
+                <p id="mesR">- -</p>
+                <h2>meses</h2>
+            </div>
+
+            <div>
+                <p id="diaR">- -</p>
+                <h2>dias</h2>
+            </div>
+        </span>
+
+        <h1 id="cont"></h1>
+    </section>
+
+
+
+</body>
+
+</html>
